@@ -365,11 +365,16 @@ header {
   font-size: 1.3rem;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
+  width: 100%;
+  table-layout: fixed;
 }
 
 .section5-table tr td {
+  width: 14.285714%;
   padding-top: 0.8em;
   padding-bottom: 0.8em;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .section5-table tr .sun {
@@ -379,7 +384,14 @@ header {
 .section5-table tr .check {
   color: white;
   background-color: chocolate;
-  border-radius: 30px;
+  border-radius: 50%;
+  width: 2.2em !important;
+  height: 2.2em !important;
+  padding: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .section5-table tr:first-child td {
@@ -499,6 +511,8 @@ header {
 .section8 {
   background-color: #f9f9f9;
   font-family: MapoFlowerIsland;
+  text-align: center;
+  padding: 2rem 0;
 }
 
 /*
